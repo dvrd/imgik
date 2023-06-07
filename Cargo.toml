@@ -1,0 +1,12 @@
+[package]
+name = "imgik"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ndarray = "0.15.6"
+png = "0.17.8"
+reqwest = { version = "0.11.18", features = ["blocking"] }
+rulinalg = "0.4.2"
